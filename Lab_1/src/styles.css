@@ -1,0 +1,69 @@
+body {
+    font-family: "Segoe UI", serif;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #294C60;
+}
+
+.page-title {
+    color: #FFEFD3;
+    font: 50pt small-caps bold sans-serif;
+}
+
+.page-body {
+    background-color: #5F9EA0;
+    padding: 20px 30px;
+    min-height: 88vh;
+}
+
+.artist-wrapper {
+    border: 1px solid #294C60;
+    border-radius: 10px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.collapse-wrapper {
+    color: #294C60;
+    cursor: pointer;
+}
+
+.artists-record {
+    padding: 10px;
+}
+
+.artist-info-container {
+    display: flex;
+}
+
+.artist-name {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 300px;
+}
+
+.artist-listeners {
+    font-size: 18px;
+}
+
+.collapse-content {
+    padding: 15px;
+    border-top: 1px solid #d1d1d1;
+    font-size: 16px;
+}
+
+.filter-controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.filter-button {
+    width: 80px;
+}
